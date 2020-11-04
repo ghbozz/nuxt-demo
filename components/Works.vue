@@ -1,9 +1,14 @@
 <template>
   <div class="container flex">
     <div id="works" class="w-full">
-      <Showcase />
+      <Showcase data-aos="fade-right" data-aos-once="true" data-aos-duration="1000" />
       <div class="flex mb-4">
-        <Work v-for="work in works" :work="work" />
+        <Work v-for="work in works" :work="work" :key="work.index"
+              data-aos-easing="ease-in-out" 
+              data-aos="fade-up" 
+              data-aos-once="true"
+              :data-aos-delay="work.index * 100" 
+              :data-aos-duration="work.index * 500" />
       </div>
     </div>
   </div>
@@ -17,7 +22,9 @@ export default {
     }
   },
   async fetch() {
-    this.works = await this.$content('works').fetch();
+    this.works = await this.$content('works')
+                           .sortBy('index')
+                           .fetch();
   }
 }
 </script>

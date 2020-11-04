@@ -30,12 +30,14 @@ export default {
   ** Global CSS
   */
   css: [
+    'aos/dist/aos.css'
   ],
   /*
   ** Plugins to load before mounting the App
   ** https://nuxtjs.org/guide/plugins
   */
   plugins: [
+    { src: '@/plugins/aos.js', mode: 'client' }
   ],
   /*
   ** Auto import components
