@@ -1,5 +1,6 @@
 <template>
-  <div class="skill skill w-1/3 bg-indigo-200 overflow-hidden rounded" 
+  <div class="skill w-1/3 overflow-hidden rounded"
+       :style="'background-color:' + color" 
        data-aos-easing="ease-in-out" 
        data-aos-once="true"
        :data-aos="animation" 
@@ -20,10 +21,12 @@
 
 <script>
 export default {
-  props: ['title', 'description', 'animation', 'delay', 'duration']
+  props: ['title', 'description', 'color','animation', 'delay', 'duration']
 }
 </script>
 
 <style>
-
+  .skill {
+    color: white;
+  }
 </style>

@@ -1,6 +1,7 @@
 <template>
   <div id="stack" class="w-full">
-    <img id="rails" class="pb-3"src="~/assets/images/rails.svg" />
+    <img id="figma" src="~/assets/images/figma.png">
+    <img id="rails" class="pb-3" src="~/assets/images/rails.svg" />
     <img id="nuxt" src="~/assets/images/nuxt.svg" />
     <img id="webflow" src="~/assets/images/webflow_full.svg" />
     <img id ="shopify" src="~/assets/images/shopify.svg" />
@@ -22,20 +23,24 @@ export default {
   }
 
   #stack img {
-    height: 50px;
+    height: 40px;
     margin: 0px 50px;
     filter: grayscale(15%);
   }
 
+  #figma {
+    height: 90px !important;
+  }
+
   #rails {
-    height: 180px !important;
+    height: 170px !important;
   }
 
   #nuxt {
-    height: 40px !important;
+    height: 30px !important;
   }
 
   #shopify {
-    height: 200px !important;
+    height: 190px !important;
   }
 </style>

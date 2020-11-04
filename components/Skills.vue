@@ -2,28 +2,31 @@
   <div class="container flex">
     <div id="skills" class="w-full">
 
-      <div id="showcase" class="w-full bg-green-200 rounded" data-aos="fade-up" data-aos-once="true" data-aos-duration="1000">
+      <div id="main-value" class="w-full rounded" data-aos="fade-up" data-aos-once="true" data-aos-duration="1000">
         <div class="infos text-right">
-          <h4 class="text-4xl font-semibold">Title</h4>
-          <p>Description</p>
+          <h4 class="text-4xl font-semibold">Main Value</h4>
+          <p>Some Description</p>
         </div>
       </div>
 
       <div class="flex mb-4">
-        <Skill :title="'hello'" 
+        <Skill :title="'Prototyping'" 
                :description="'Some Description'"
+               :color="'rgb(199, 146, 233)'"
                :animation="'fade-right'"
                :delay="'200'"
                :duration="'1000'"/>
 
-        <Skill :title="'hello'" 
+        <Skill :title="'Backend-Development'" 
                :description="'Some Description'"
+               :color="'rgb(34, 34, 34)'"
                :animation="'fade-up'"
                :delay="'400'"
                :duration="'1000'"/>
 
-        <Skill :title="'hello'" 
+        <Skill :title="'Frontend-Development'" 
                :description="'Some Description'"
+               :color="'rgb(130, 170, 255)'"
                :animation="'fade-left'"
                :delay="'600'"
                :duration="'1000'"/>
@@ -39,13 +42,14 @@ export default {
 </script>
 
 <style>
-  #showcase {
+  #main-value {
     height: 28rem;
+    background-color: rgb(195, 232, 141);
     box-shadow: 0px 1px 30px -1px rgba(0,0,0,0.05);
     position: relative;
   }
 
-  #showcase .infos {
+  #main-value .infos {
     position: absolute;
     right: 20px;
     bottom: 20px;
