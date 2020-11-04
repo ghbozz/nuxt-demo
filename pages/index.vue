@@ -1,11 +1,11 @@
 <template>
   <div>
-    <div class="h-screen">
-      <Banner />
+    <Banner />
+    <div class="min-h-screen pt-24 pb-4 bg-gradient">
+      <Skills />
       <Stack />
     </div>
-    <div class="min-h-screen py-4 flex justify-center items-center">
-      <Works />
+    <div class="min-h-screen py-4">
     </div>
   </div>
 </template>
@@ -24,5 +24,14 @@ export default {
 */
 .container {
   margin: 0 auto;
+}
+
+.bg-gradient {
+  background: rgb(247,250,252);
+  background: linear-gradient(90deg, 
+              rgba(247,250,252,1) 0%, 
+              rgba(244,244,244,1) 40%, 
+              rgba(244,244,244,1) 60%, 
+              rgba(247,250,252,1) 100%);
 }
 </style>

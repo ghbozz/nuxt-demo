@@ -16,7 +16,8 @@ export default {
 
 <style>
   #banner {
-    height: 28rem;
+    height: 32rem;
     padding-top: 10rem;
+    margin-bottom: 8rem;
   }
 </style>

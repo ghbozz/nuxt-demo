@@ -1,5 +1,5 @@
 <template>
-  <div id="stack" class="w-full mt-24">
+  <div id="stack" class="w-full">
     <img id="rails" class="pb-3"src="~/assets/images/rails.svg" />
     <img id="nuxt" src="~/assets/images/nuxt.svg" />
     <img id="webflow" src="~/assets/images/webflow_full.svg" />
@@ -18,8 +18,6 @@ export default {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: rgb(247,250,252);
-    background: linear-gradient(90deg, rgba(247,250,252,1) 0%, rgba(244,244,244,1) 50%, rgba(247,250,252,1) 100%);
     padding: 20px 0px;
   }
 
