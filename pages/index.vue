@@ -6,6 +6,7 @@
       <Stack />
     </div>
     <div class="min-h-screen py-4">
+      <Works />
     </div>
   </div>
 </template>

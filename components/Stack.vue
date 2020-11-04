@@ -1,12 +1,12 @@
 <template>
   <div id="tools" class="mt-10">
     <h5 class="text-center text-5xl mt-12">Tools</h5>
-    <div id="stack" class="w-full">
+    <div id="stack" class="w-full pt-4">
       <img id="figma" src="~/assets/images/figma.png">
-      <img id="rails" class="pb-3" src="~/assets/images/rails.svg" />
       <img id="nuxt" src="~/assets/images/nuxt.svg" />
+      <img id="rails" class="pb-5" src="~/assets/images/rails.svg" />
       <img id="webflow" src="~/assets/images/webflow_full.svg" />
-      <img id ="shopify" src="~/assets/images/shopify.svg" />
+      <img id="shopify" src="~/assets/images/shopify.png" />
     </div>
   </div>
 </template>
@@ -28,11 +28,12 @@ export default {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: -35px;
   }
 
   #stack img {
     height: 40px;
-    margin: 0px 50px;
+    margin: 0px 35px;
     filter: grayscale(15%);
   }
 
@@ -49,6 +50,6 @@ export default {
   }
 
   #shopify {
-    height: 190px !important;
+    height: 65px !important;
   }
 </style>

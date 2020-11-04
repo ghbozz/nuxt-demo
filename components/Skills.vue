@@ -15,21 +15,21 @@
                :color="'rgb(199, 146, 233)'"
                :animation="'fade-right'"
                :delay="'200'"
-               :duration="'1000'"/>
+               :duration="'750'"/>
 
         <Skill :title="'Backend-Development'" 
                :description="'Some Description'"
                :color="'rgb(34, 34, 34)'"
                :animation="'fade-up'"
-               :delay="'400'"
-               :duration="'1000'"/>
+               :delay="'300'"
+               :duration="'750'"/>
 
         <Skill :title="'Frontend-Development'" 
                :description="'Some Description'"
                :color="'rgb(130, 170, 255)'"
                :animation="'fade-left'"
-               :delay="'600'"
-               :duration="'1000'"/>
+               :delay="'400'"
+               :duration="'750'"/>
       </div>
     </div>
   </div>
@@ -47,6 +47,7 @@ export default {
     background-color: rgb(195, 232, 141);
     box-shadow: 0px 1px 30px -1px rgba(0,0,0,0.05);
     position: relative;
+    color: rgb(247, 250, 252);
   }
 
   #main-value .infos {
