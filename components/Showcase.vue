@@ -1,7 +1,7 @@
 <template>
   <div id="showcase" class="w-full bg-green-200 rounded">
     <div class="infos text-right">
-      <h4 class="text-4xl">{{ work.title }}</h4>
+      <h4 class="text-4xl font-semibold">{{ work.title }}</h4>
       <p>{{ work.description }}</p>
     </div>
   </div>
@@ -26,7 +26,7 @@ export default {
 <style>
   #showcase {
     height: 28rem;
-    box-shadow: 0px 1px 30px -1px rgba(0,0,0,0.1);
+    box-shadow: 0px 1px 30px -1px rgba(0,0,0,0.05);
     position: relative;
   }
 
