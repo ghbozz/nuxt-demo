@@ -1,12 +1,19 @@
 <template>
   <div>
-    <Banner />
-    <Stack />
+    <div class="h-screen">
+      <Banner />
+      <Stack />
+    </div>
+    <div class="min-h-screen">
+      <Works />
+    </div>
   </div>
 </template>
 
 <script>
-export default {};
+export default {
+
+};
 </script>
 
 <style>

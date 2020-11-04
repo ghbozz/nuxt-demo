@@ -1,0 +1,8 @@
+{
+  "title": "Petch",
+  "description": "Some work description",
+  "url": "https://media.petch.fr/",
+  "techs": [
+    "rails", "Javascript ES6", "Bootstrap"
+  ]
+}
