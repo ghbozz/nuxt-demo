@@ -4,7 +4,7 @@
       <Banner />
       <Stack />
     </div>
-    <div class="min-h-screen">
+    <div class="min-h-screen py-4 flex justify-center items-center">
       <Works />
     </div>
   </div>

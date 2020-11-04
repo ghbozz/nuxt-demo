@@ -1,5 +1,5 @@
 <template>
-  <div class="work">
+  <div class="work w-1/3 bg-gray-400">
     {{ work.title }}
   </div>
 </template>
@@ -11,5 +11,7 @@ export default {
 </script>
 
 <style>
-
+  .work {
+    height: 24rem;
+  }
 </style>
