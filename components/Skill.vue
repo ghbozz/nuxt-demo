@@ -2,7 +2,7 @@
   <div class="skill w-1/3 overflow-hidden rounded"
        :style="'background-color:' + color" 
        data-aos-easing="ease-in-out" 
-       data-aos-once="true"
+       data-aos-once="false"
        :data-aos="animation" 
        :data-aos-delay="delay"
        :data-aos-duration="duration">
@@ -10,9 +10,10 @@
     <div class="infos text-right"
          data-aos="fade"
          data-aos-easing="ease-in-out" 
-         data-aos-once="true"
+         data-aos-once="false"
          :data-aos-delay="delay"
          :data-aos-duration="duration">
+         
       <h4 class="text-3xl font-semibold">{{ title }}</h4>
       <p>{{ description }}</p>
     </div>
