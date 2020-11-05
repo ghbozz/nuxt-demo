@@ -1,9 +1,13 @@
 <template>
-  <div id="stack" class="w-full mt-24">
-    <img id="rails" class="pb-3"src="~/assets/images/rails.svg" />
-    <img id="nuxt" src="~/assets/images/nuxt.svg" />
-    <img id="webflow" src="~/assets/images/webflow_full.svg" />
-    <img id ="shopify" src="~/assets/images/shopify.svg" />
+  <div id="tools" class="mt-10">
+    <h5 class="text-center text-5xl mt-12">Tools</h5>
+    <div id="stack" class="w-full pt-6">
+      <img id="figma" src="~/assets/images/figma.png">
+      <img id="nuxt" src="~/assets/images/nuxt.svg" />
+      <img id="rails" class="pb-5" src="~/assets/images/rails.svg" />
+      <img id="webflow" src="~/assets/images/webflow_full.svg" />
+      <img id="shopify" src="~/assets/images/shopify.png" />
+    </div>
   </div>
 </template>
 
@@ -14,30 +18,38 @@ export default {
 </script>
 
 <style>
+  #tools h5 {
+    font-family: 'Amatic SC', cursive;
+    font-weight: bolder;
+    color: rgb(220, 220, 220);
+  }
+
   #stack {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: rgb(247,250,252);
-    background: linear-gradient(90deg, rgba(247,250,252,1) 0%, rgba(244,244,244,1) 50%, rgba(247,250,252,1) 100%);
-    padding: 20px 0px;
+    margin-top: -35px;
   }
 
   #stack img {
-    height: 50px;
-    margin: 0px 50px;
+    height: 40px;
+    margin: 0px 35px;
     filter: grayscale(15%);
   }
 
+  #figma {
+    height: 90px !important;
+  }
+
   #rails {
-    height: 180px !important;
+    height: 170px !important;
   }
 
   #nuxt {
-    height: 40px !important;
+    height: 30px !important;
   }
 
   #shopify {
-    height: 200px !important;
+    height: 65px !important;
   }
 </style>

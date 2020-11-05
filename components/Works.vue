@@ -1,11 +1,7 @@
 <template>
-  <div class="container flex">
-    <div id="works" class="w-full">
-      <Showcase />
-      <div class="flex mb-4">
-        <Work v-for="work in works" :work="work" />
-      </div>
-    </div>
+  <div id="works" class="container pt-16">
+    <h3 class="text-center text-6xl mb-16">Recent works</h3>
+    <Work v-for="(work, index) in works" :work="work" :index="index" />
   </div>
 </template>
 
@@ -17,21 +13,14 @@ export default {
     }
   },
   async fetch() {
-    this.works = await this.$content('works').fetch();
+    this.works = await this.$content('works').sortBy('createdAt').fetch();
   }
 }
 </script>
 
 <style>
-  .work {
-    margin: 20px 10px 0px 10px;
-  }
-
-  .work:first-of-type {
-    margin-left: 0px;
-  }
-
-  .work:last-of-type {
-    margin-right: 0px;
+  #works h3 {
+    font-family: 'Amatic SC', cursive;
+    font-weight: bolder;
   }
 </style>
