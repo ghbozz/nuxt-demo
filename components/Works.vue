@@ -1,7 +1,7 @@
 <template>
-  <div id="works" class="container pt-12">
-    <h3 class="text-center text-6xl">Recent works</h3>
-    <Work v-for="work in works" :work="work"/>
+  <div id="works" class="container pt-16">
+    <h3 class="text-center text-6xl mb-16">Recent works</h3>
+    <Work v-for="(work, index) in works" :work="work" :index="index" />
   </div>
 </template>
 

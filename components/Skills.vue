@@ -17,16 +17,16 @@
                :delay="'200'"
                :duration="'750'"/>
 
-        <Skill :title="'Backend-Development'" 
+        <Skill :title="'Design'" 
                :description="'Some Description'"
-               :color="'rgb(34, 34, 34)'"
+               :color="'rgb(130, 170, 255)'"
                :animation="'fade-up'"
                :delay="'300'"
                :duration="'750'"/>
 
-        <Skill :title="'Frontend-Development'" 
+        <Skill :title="'Development'" 
                :description="'Some Description'"
-               :color="'rgb(130, 170, 255)'"
+               :color="'rgb(34, 34, 34)'"
                :animation="'fade-left'"
                :delay="'400'"
                :duration="'750'"/>

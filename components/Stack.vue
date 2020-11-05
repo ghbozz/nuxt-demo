@@ -1,7 +1,7 @@
 <template>
   <div id="tools" class="mt-10">
     <h5 class="text-center text-5xl mt-12">Tools</h5>
-    <div id="stack" class="w-full pt-4">
+    <div id="stack" class="w-full pt-6">
       <img id="figma" src="~/assets/images/figma.png">
       <img id="nuxt" src="~/assets/images/nuxt.svg" />
       <img id="rails" class="pb-5" src="~/assets/images/rails.svg" />
