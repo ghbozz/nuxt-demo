@@ -14,7 +14,7 @@
                :description="'Some Description'"
                :color="'rgb(199, 146, 233)'"
                :animation="'fade-right'"
-               :delay="'200'"
+               :delay="'100'"
                :duration="'750'"/>
 
         <Skill :title="'Design'" 
@@ -28,7 +28,7 @@
                :description="'Some Description'"
                :color="'rgb(34, 34, 34)'"
                :animation="'fade-left'"
-               :delay="'400'"
+               :delay="'500'"
                :duration="'750'"/>
       </div>
     </div>
