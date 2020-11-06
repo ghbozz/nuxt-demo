@@ -1,6 +1,7 @@
 <template>
   <div id="footer" class="w-screen py-12">
-    <h3 class="text-center text-5xl">Contact</h3>
+    <h3 class="text-center text-5xl mb-8">Contact</h3>
+    <ContactForm />
   </div>
 </template>
 
@@ -12,8 +13,8 @@ export default {
 
 <style scoped>
   #footer {
-    height: 32rem;
-    background-color: rgb(34, 35, 35);
+    height: 42rem;
+    background-color: rgb(30, 30, 30);
     color: rgb(247, 250, 252);
   }
 
