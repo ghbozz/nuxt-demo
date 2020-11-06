@@ -24,7 +24,8 @@ export default {
   methods: {
     image(format) {
       if (this.work.images) {
-        return require(`~/assets/images/works/${this.work.title.toLowerCase()}/${format}.png`)
+        const directory = this.work.title.toLowerCase().replace(' ', '_')
+        return require(`~/assets/images/works/${directory}/${format}.png`)
       }
     },
     technos() {

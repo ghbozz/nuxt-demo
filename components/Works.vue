@@ -14,7 +14,7 @@ export default {
     }
   },
   async fetch() {
-    this.works = await this.$content('works').sortBy('index').fetch();
+    this.works = await this.$content('works').sortBy('index', 'desc').fetch();
   }
 }
 </script>

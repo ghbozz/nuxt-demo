@@ -21,7 +21,7 @@ export default {
   #tools h5 {
     font-family: 'Amatic SC', cursive;
     font-weight: bolder;
-    color: rgb(220, 220, 220);
+    color: rgb(200, 200, 200);
   }
 
   #stack {
@@ -34,7 +34,8 @@ export default {
   #stack img {
     height: 40px;
     margin: 0px 35px;
-    filter: grayscale(15%);
+    filter: grayscale(100%);
+    opacity: 35%;
   }
 
   #figma {
