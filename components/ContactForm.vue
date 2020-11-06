@@ -83,7 +83,7 @@ export default {
     border: 1px solid rgba(247, 250, 252, .2);
     margin: 0 auto;
     padding: 10px;
-    width: 30%;
+    width: 25%;
     font-size: 2rem;
   }
 </style>
