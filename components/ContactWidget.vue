@@ -1,12 +1,16 @@
 <template>
   <div id="contact-widget">
-    <font-awesome-icon :icon="['fas', 'at']"/>
+    <font-awesome-icon :icon="['fas', 'at']" @click="scrollDown($event)"/>
   </div>
 </template>
 
 <script>
 export default {
-
+  methods: {
+    scrollDown(e) {
+      document.querySelector('#footer').scrollIntoView({behavior: "smooth", block: "end"});
+    }
+  }
 }
 </script>
 
@@ -24,13 +28,13 @@ export default {
     top: 150%;
     content: '';
     width: 4px;
-    height: 50px;
-    background-color: rgb(31, 31, 31);
+    height: 55px;
+    background-color: rgb(30, 30, 30);
   }
 
   svg {
-    font-size: 3rem;
-    color: rgb(31, 31, 31);
+    font-size: 2.7rem;
+    color: rgba(30, 30, 30);
     cursor: pointer;
   }
 </style>
