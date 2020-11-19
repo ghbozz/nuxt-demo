@@ -4,7 +4,5 @@
   "title": "12.5",
   "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit numquam porro, nostrum labore mollitia pariatur error tempora, quia eos, fugit qui hic? Perspiciatis, dicta voluptatibus?",
   "url": "https://www.12p5.com/",
-  "techs": [
-    "Rails", "Javascript ES6", "Bootstrap"
-  ]
+  "techs": ["Rails", "Javascript ES6", "Bootstrap"]
 }
