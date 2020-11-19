@@ -2,6 +2,7 @@
   <div>
     <Nuxt />
     <Footer />
+    <ContactWidget />
   </div>
 </template>
 
