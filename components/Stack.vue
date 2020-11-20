@@ -35,7 +35,7 @@ export default {
     height: 40px;
     margin: 0px 35px;
     filter: grayscale(100%);
-    opacity: 35%;
+    opacity: 35% !important;
   }
 
   #figma {
