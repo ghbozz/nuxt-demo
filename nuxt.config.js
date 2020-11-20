@@ -1,3 +1,4 @@
+import { config } from "@fortawesome/fontawesome-svg-core";
 
 export default {
   /*
@@ -12,8 +13,9 @@ export default {
   target: 'static',
 
   router: {
-    base: '/nuxt-demo/'
+    base: process.env.NODE_ENV === 'production' ? '/nuxt-demo/' : '/'
   },
+  
   /*
   ** Headers of the page
   ** See https://nuxtjs.org/api/configuration-head
