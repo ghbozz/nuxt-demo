@@ -1,6 +1,5 @@
 <template>
   <div class="container">
-    HELLO
     <div id="banner" class="w-full flex justify-center items-center flex-col">
       <h1 class="text-6xl font-bold tracking-wide mb-4">Lorem ipsum dolor sit consectetur!</h1>
       <p class="text-2xl text-center mb-16">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque! <br> Lorem ipsum dolor sit amet. 🚀</p>
