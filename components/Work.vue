@@ -1,5 +1,5 @@
 <template>
-  <div class="work h-screen relative">
+  <div class="work h-screen relative my-48">
     <div class="infos text-center px-12 mb-16">
       <h4 class="text-4xl">{{ work.title }}</h4>
       <p>{{ work.description }}</p>

@@ -1,5 +1,5 @@
 <template>
-  <div id="footer" class="w-screen py-12">
+  <div id="footer" class="py-12">
     <h3 class="text-center text-5xl mb-8">Contact</h3>
     <p class="text-center text-2xl mb-8">Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
     <ContactForm />
